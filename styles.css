@@ -1,0 +1,21 @@
+body{
+    background-color:black;
+    color:white;
+}
+.container{
+    min-height: 100vh;
+}
+footer{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    font-family: 'Poppins', sans-serif;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul{
+    display: flex;
+}
