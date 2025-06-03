@@ -1,34 +1,57 @@
-body{
-    background-color:black;
-    color:white;
+*{
+    margin: 0;
+    padding: 0;
 }
+
+body{
+    background-color:aliceblue;
+    color:black;
+}
+
 .container{
     min-height: 100vh;
 }
-footer{
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-}
+
 nav{
     font-family: 'Poppins', sans-serif;
     padding: 23px;
-    background-color:purple;
+    background-color: #9B8BB4;  /* Very light lavender purple */
+    box-shadow: 0 2px 15px rgba(155, 139, 180, 0.15);  /* Lighter shadow */
 }
+
+nav ul{
+    display: flex;
+}
+
 nav ul li{
     list-style: none;
     margin: 0 23px;
     display: flex;
 }
-nav ul{
-    display: flex;
+
+nav li a{
+    text-decoration: none;
+    color: #2C1810;  /* Soft dark brown for better contrast */
+    font-weight: 500;
+    transition: 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
+
+nav li a:hover{
+    text-decoration: none;
+    color: #4A2C2A;  /* Slightly lighter brown on hover */
+    text-shadow: 0 0 5px rgba(74, 44, 42, 0.2);  /* Very subtle glow */
+}
+
 div.logo{
     justify-content: center;
     align-items: center;
     display: flex;
     margin-left: 0 23px;
 }
-*{
-    margin: 0;
-    padding: 0;
+
+footer{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
