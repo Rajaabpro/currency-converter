@@ -12,7 +12,6 @@ body{
     min-height: 100vh;
     margin: 80vh;
     margin: auto;
-    background-color: #9B8BB4;
 }
  .container h1{
     text-align: center;
@@ -20,7 +19,7 @@ body{
  }
  
  .container form input [type="text"]{
-    
+
  }
 nav{
     font-family: 'Poppins', sans-serif;
