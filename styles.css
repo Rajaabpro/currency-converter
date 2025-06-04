@@ -10,8 +10,18 @@ body{
 
 .container{
     min-height: 100vh;
+    margin: 80vh;
+    margin: auto;
+    background-color: #9B8BB4;
 }
-
+ .container h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+ }
+ 
+ .container form input [type="text"]{
+    
+ }
 nav{
     font-family: 'Poppins', sans-serif;
     padding: 23px;
