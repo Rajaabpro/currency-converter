@@ -17,6 +17,10 @@ body{
     text-align: center;
     font-family: 'Poppins', sans-serif;
  }
+ .container form{
+    display: flex;
+
+ }
  
  .container form input [type="text"]{
 
